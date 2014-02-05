@@ -1,0 +1,7 @@
+play test
+help play
+play run
+play run 3000
+cd ..
+test
+exit
