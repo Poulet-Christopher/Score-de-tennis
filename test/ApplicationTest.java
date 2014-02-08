@@ -49,6 +49,7 @@ public class ApplicationTest {
     public void point_jeu(){
         assert_pointj1(1,15);
         assert_pointj1(2,30);
+        assert_pointj1(3,40);
     }
 
 }

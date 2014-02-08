@@ -3,7 +3,7 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
-[0m[[0minfo[0m] [0mFinished in 0.02 seconds[0m
+[0m[[0minfo[0m] [0mFinished in 0.019 seconds[0m
 [0m[[0minfo[0m] [0m1 tests, 0 failures, 0 errors[0m
 [0m[[0minfo[0m] [0mApplicationTest[0m
 [0m[[0minfo[0m] [0m+ simpleCheck[0m
@@ -12,5 +12,5 @@
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
-[0m[[0minfo[0m] [0mFinished in 0.004 seconds[0m
+[0m[[0minfo[0m] [0mFinished in 0.003 seconds[0m
 [0m[[0minfo[0m] [0m3 tests, 0 failures, 0 errors[0m

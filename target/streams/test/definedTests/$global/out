@@ -1,2 +1,2 @@
-[0m[[0mdebug[0m] [0mSubclass fingerprints: Stream((junit.framework.TestCase,false,sbt.SubclassFingerprintWrapper@6ce75188), ?)[0m
-[0m[[0mdebug[0m] [0mAnnotation fingerprints: Stream((org.junit.Test,false,sbt.AnnotatedFingerprintWrapper@1dcccf0f), ?)[0m
+[0m[[0mdebug[0m] [0mSubclass fingerprints: Stream((junit.framework.TestCase,false,sbt.SubclassFingerprintWrapper@7f9feb97), ?)[0m
+[0m[[0mdebug[0m] [0mAnnotation fingerprints: Stream((org.junit.Test,false,sbt.AnnotatedFingerprintWrapper@18841b07), ?)[0m
