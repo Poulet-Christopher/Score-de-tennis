@@ -71,6 +71,9 @@ public class ApplicationTest {
         jeu.JoueurGagne("j1",3);
         jeu.JoueurGagne("j2",3);
         assertThat(jeu.JoueurGagne("j1",4)).isEqualTo("Av-40");
+
+        //retour a 40-40
+        assertThat(jeu.JoueurGagne("j2",4)).isEqualTo("40-40");
     }
 
     @Test
@@ -79,6 +82,9 @@ public class ApplicationTest {
         jeu.JoueurGagne("j1",3);
         jeu.JoueurGagne("j2",3);
         assertThat(jeu.JoueurGagne("j2",4)).isEqualTo("40-Av");
+
+        //retour a 40-40
+        assertThat(jeu.JoueurGagne("j1",4)).isEqualTo("40-40");
     }
 
 }

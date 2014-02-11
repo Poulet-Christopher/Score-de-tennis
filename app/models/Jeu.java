@@ -76,6 +76,10 @@ public class Jeu {
 				if(this.scores[versus] == "40"){
 					this.scores[player] = "Av";
 				}
+
+				if(this.scores[versus] == "Av" && this.scores[player] == "40"){
+					this.scores[versus] = "40";
+				}
 				break;
 		}
 
