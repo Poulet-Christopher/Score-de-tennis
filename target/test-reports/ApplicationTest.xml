@@ -6,9 +6,9 @@
     </properties>
         <testcase classname="ApplicationTest" name="simpleCheck" time="0.0">
       
-    </testcase><testcase classname="ApplicationTest" name="renderTemplate" time="0.0">
+    </testcase><testcase classname="ApplicationTest" name="ScoreDebutDePartie" time="0.0">
       
-    </testcase><testcase classname="ApplicationTest" name="point_jeu" time="0.0">
+    </testcase><testcase classname="ApplicationTest" name="renderTemplate" time="0.0">
       
     </testcase>
         <system-out>

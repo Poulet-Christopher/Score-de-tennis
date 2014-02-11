@@ -18,8 +18,7 @@ import play.libs.F.*;
 import static play.test.Helpers.*;
 import static org.fest.assertions.Assertions.*;
 
-import models.Joueur1;
-import models.Joueur2;
+import models.Jeu;
 
 /**
 *
@@ -42,22 +41,10 @@ public class ApplicationTest {
         assertThat(contentAsString(html)).contains("Your new application is ready.");
     }
 
-    void assert_pointj1(int point,int score){
-        assertThat(new Joueur1(point).point()).isEqualTo(score);
-    }
-
-    void assert_pointj2(int point,int score){
-        assertThat(new Joueur2(point).point()).isEqualTo(score);
-    }
-
     @Test
-    public void point_jeu(){
-        assert_pointj1(1,15);
-        assert_pointj1(2,30);
-        assert_pointj1(3,40);
-        assert_pointj2(1,15);
-        assert_pointj2(2,30);
-        assert_pointj2(3,40);
+    public void ScoreDebutDePartie() {
+        Jeu jeu = new Jeu();
+        //assertThat(jeu.score().isEqualTo("0-0"));
     }
 
 }
