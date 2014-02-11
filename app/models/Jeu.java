@@ -6,7 +6,7 @@ import play.data.validation.Constraints.*;
 
 public class Jeu {
 
-	private int[] scores = {0,0};
+	private String[] scores = {"0","0"};
 	
  
 	public String score() {
@@ -19,26 +19,31 @@ public class Jeu {
 		if(joueur == "j1")
 		{
 			if(point == 1){
-				this.scores[0] = 15;
+				this.scores[0] = "15";
 			}
 			if(point == 2){
-				this.scores[0] = 30;
+				this.scores[0] = "30";
 			}
 			if(point == 3){
-				this.scores[0] = 40;
+				this.scores[0] = "40";
+			}
+			if(point == 4){
+				if(this.scores[1] == "40"){
+					this.scores[0] = "Av";
+				}
 			}
 			
 		}
 		else
 		{
 			if(point == 1){
-				this.scores[1] = 15;
+				this.scores[1] = "15";
 			}
 			if(point == 2){
-				this.scores[1] = 30;
+				this.scores[1] = "30";
 			}
 			if(point == 3){
-				this.scores[1] = 40;
+				this.scores[1] = "40";
 			}
 		}
 
