@@ -16,7 +16,8 @@ public class Jeu {
 	}
 
 	public String JoueurGagne(String joueur, int point){
-		if(joueur == "j1")
+		int player, versus;
+		/*if(joueur == "j1")
 		{
 			if(point == 1){
 				this.scores[0] = "15";
@@ -50,6 +51,32 @@ public class Jeu {
 					this.scores[1] = "Av";
 				}
 			}
+		}*/
+
+		if(joueur == "j1"){
+			player=0;
+			versus=1;
+		}
+		else{
+			player=1;
+			versus=0;
+		}
+
+		switch(point){
+			case 1:
+				this.scores[player] = "15";
+				break;
+			case 2:
+				this.scores[player] = "30";
+				break;
+			case 3:
+				this.scores[player] = "40";
+				break;
+			case 4:
+				if(this.scores[versus] == "40"){
+					this.scores[player] = "Av";
+				}
+				break;
 		}
 
 		return this.score();
