@@ -46,6 +46,14 @@ public class ApplicationTest {
         Jeu jeu = new Jeu();
         String score = jeu.score();
         assertThat(score).isEqualTo("0-0");
+
+    }
+
+    @Test
+    public void GainJoueur1(){
+        Jeu jeu = new Jeu();
+        assertThat(jeu.JoueurGagne("j1",1)).isEqualTo("15-0");
+        assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-0");
     }
 
 }

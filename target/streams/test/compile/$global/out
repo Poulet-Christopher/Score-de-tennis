@@ -16,10 +16,10 @@
 [0m[[0minfo[0m] [0mCompiling 1 Java source to C:\Users\Chris\Documents\GitHub\Score-de-tennis\target\scala-2.10\test-classes...[0m
 [0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
 [0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
-[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/Chris/AppData/Local/Temp/sbt_663cf9e0/argfile[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @C:/Users/Chris/AppData/Local/Temp/sbt_196d559/argfile[0m
 [0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
-[0m[[0mdebug[0m] [0mJava compilation took 1.081933166 s[0m
-[0m[[0mdebug[0m] [0mJava analysis took 0.14073949 s[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.000119891 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.063818423 s[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
