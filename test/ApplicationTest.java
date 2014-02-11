@@ -44,7 +44,8 @@ public class ApplicationTest {
     @Test
     public void ScoreDebutDePartie() {
         Jeu jeu = new Jeu();
-        //assertThat(jeu.score().isEqualTo("0-0"));
+        String score = jeu.score();
+        assertThat(score).isEqualTo("0-0");
     }
 
 }
