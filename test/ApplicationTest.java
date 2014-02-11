@@ -54,6 +54,7 @@ public class ApplicationTest {
         Jeu jeu = new Jeu();
         assertThat(jeu.JoueurGagne("j1",1)).isEqualTo("15-0");
         assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-0");
+        assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-0");
     }
 
 }

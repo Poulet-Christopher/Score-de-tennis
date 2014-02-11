@@ -21,8 +21,11 @@ public class Jeu {
 			if(point == 1){
 				this.scores[0] = 15;
 			}
-			else{
+			if(point == 2){
 				this.scores[0] = 30;
+			}
+			if(point == 3){
+				this.scores[0] = 40;
 			}
 			
 		}
