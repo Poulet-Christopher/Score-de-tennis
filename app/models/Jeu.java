@@ -31,7 +31,15 @@ public class Jeu {
 		}
 		else
 		{
-			this.scores[1]=15;
+			if(point == 1){
+				this.scores[1] = 15;
+			}
+			if(point == 2){
+				this.scores[1] = 30;
+			}
+			if(point == 3){
+				this.scores[1] = 40;
+			}
 		}
 
 		return this.score();

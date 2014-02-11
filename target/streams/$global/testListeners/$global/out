@@ -10,8 +10,9 @@
 [0m[[0minfo[0m] [0m+ ScoreDebutDePartie[0m
 [0m[[0minfo[0m] [0m+ renderTemplate[0m
 [0m[[0minfo[0m] [0m+ GainJoueur1[0m
+[0m[[0minfo[0m] [0m+ GainJoueur2[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
 [0m[[0minfo[0m] [0mFinished in 0.0 seconds[0m
-[0m[[0minfo[0m] [0m4 tests, 0 failures, 0 errors[0m
+[0m[[0minfo[0m] [0m5 tests, 0 failures, 0 errors[0m

@@ -57,4 +57,12 @@ public class ApplicationTest {
         assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-0");
     }
 
+    @Test
+    public void GainJoueur2(){
+        Jeu jeu = new Jeu();
+        assertThat(jeu.JoueurGagne("j2",1)).isEqualTo("0-15");
+        assertThat(jeu.JoueurGagne("j2",2)).isEqualTo("0-30");
+        assertThat(jeu.JoueurGagne("j2",3)).isEqualTo("0-40");
+    }
+
 }
