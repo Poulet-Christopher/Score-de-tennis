@@ -45,6 +45,11 @@ public class Jeu {
 			if(point == 3){
 				this.scores[1] = "40";
 			}
+			if(point == 4){
+				if(this.scores[0] == "40"){
+					this.scores[1] = "Av";
+				}
+			}
 		}
 
 		return this.score();
