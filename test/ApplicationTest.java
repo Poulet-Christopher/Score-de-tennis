@@ -87,4 +87,12 @@ public class ApplicationTest {
         assertThat(jeu.JoueurGagne("j1",4)).isEqualTo("40-40");
     }
 
+    @Test
+    public void JeuJ1(){
+        Jeu jeu = new Jeu();
+        assertThat(jeu.JoueurGagne("j1",4)).isEqualTo("jeuj1");
+        //RAZ du score
+        assertThat(jeu.score()).isEqualTo("0-0");
+    }
+
 }
