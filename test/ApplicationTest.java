@@ -44,7 +44,7 @@ public class ApplicationTest {
     @Test
     public void ScoreDebutDePartie() {
         Jeu jeu = new Jeu();
-        String score = jeu.score();
+        String score = jeu.score_point();
         assertThat(score).isEqualTo("0-0");
 
     }
@@ -53,8 +53,17 @@ public class ApplicationTest {
     public void GainJoueur1(){
         Jeu jeu = new Jeu();
         assertThat(jeu.JoueurGagne("j1",1)).isEqualTo("15-0");
-        assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-0");
-        assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-0");
+        assertThat(jeu.JoueurGagne("j2",1)).isEqualTo("15-15");
+        assertThat(jeu.JoueurGagne("j2",2)).isEqualTo("15-30");
+        assertThat(jeu.JoueurGagne("j2",3)).isEqualTo("15-40");
+        //assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-0");
+        //assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-15");
+        //assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-30");
+        assertThat(jeu.JoueurGagne("j1",2)).isEqualTo("30-40");
+        //assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-0");
+        //assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-15");
+        //assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-30");
+        assertThat(jeu.JoueurGagne("j1",3)).isEqualTo("40-40");
     }
 
     @Test
@@ -92,7 +101,8 @@ public class ApplicationTest {
         Jeu jeu = new Jeu();
         assertThat(jeu.JoueurGagne("j1",4)).isEqualTo("jeuj1");
         //RAZ du score
-        assertThat(jeu.score()).isEqualTo("0-0");
+        assertThat(jeu.score_point()).isEqualTo("0-0");
+        assertThat(jeu.gainJeu("j1",1)).isEqualTo("1/0");
     }
 
 }

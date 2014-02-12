@@ -7,9 +7,10 @@ import play.data.validation.Constraints.*;
 public class Jeu {
 
 	private String[] scores = {"0","0"};
+	private String[] jeux = {"0","0"};
 	
  
-	public String score() {
+	public String score_point() {
 	 	StringBuilder sb = new StringBuilder();
 	 	sb.append(this.scores[0]).append("-").append(this.scores[1]);
 	 	return sb.toString();
@@ -66,34 +67,34 @@ public class Jeu {
 		switch(point){
 			case 1:
 				this.scores[player] = "15";
-				score = this.score();
+				score = this.score_point();
 				break;
 			case 2:
 				this.scores[player] = "30";
-				score = this.score();
+				score = this.score_point();
 				break;
 			case 3:
 				this.scores[player] = "40";
-				score = this.score();
+				score = this.score_point();
 				break;
 			case 4:
 
 				if(this.scores[versus] == "40" && this.scores[player] != "Av"){
 					this.scores[player] = "Av";
-					score = this.score();
+					score = this.score_point();
 				}
 				else
 				{
 					if(this.scores[versus] == "Av" && this.scores[player] == "40"){
 						this.scores[versus] = "40";
-						score = this.score();
+						score = this.score_point();
 					}
 					else
 					{
 						score = "jeu"+joueur;
 						this.scores[player] = "0";
 						this.scores[versus] = "0";
-						this.score();
+						this.score_point();
 					}
 				}
 
@@ -103,5 +104,29 @@ public class Jeu {
 
 		return score;
 	}
+
+	public String score_jeu(){
+		StringBuilder sb = new StringBuilder();
+	 	sb.append(this.jeux[0]).append("/").append(this.jeux[1]);
+	 	return sb.toString();
+	}
  
+ 	public String gainJeu(String joueur, int jeu){
+ 		int player, versus;
+ 		if(joueur == "j1")
+ 		{
+ 			player=0;
+ 			versus=1;
+ 		}
+ 		else
+ 		{
+ 			player=1;
+ 			versus=0;
+ 		}
+
+ 		this.jeux[player] = Integer.toString(jeu);
+
+ 		return this.score_jeu();
+ 	}
+
 }
