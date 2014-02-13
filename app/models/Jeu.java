@@ -112,7 +112,9 @@ public class Jeu {
 	}
  
  	public String gainJeu(String joueur, int jeu){
- 		int player, versus;
+ 		int player, versus, splayer, sversus;
+ 		String score="";
+
  		if(joueur == "j1")
  		{
  			player=0;
@@ -125,8 +127,27 @@ public class Jeu {
  		}
 
  		this.jeux[player] = Integer.toString(jeu);
+ 		if(jeu <= 6)
+ 		{
+ 			score = this.score_jeu();
+ 		}
+ 		else
+ 		{
+ 			splayer=Integer.parseInt(this.jeux[player]);
+ 			sversus=Integer.parseInt(this.jeux[versus]);
 
- 		return this.score_jeu();
+ 			if((splayer - sversus) >= 2 || (splayer - sversus) <= -2)
+ 			{
+ 				score="set";
+ 			}
+ 			else
+ 			{
+ 				score = this.score_jeu();
+ 			}
+
+ 		}
+
+ 		return score;
  	}
 
 }

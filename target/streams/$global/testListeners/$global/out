@@ -1,21 +1,21 @@
 [0m[[0minfo[0m] [0mIntegrationTest[0m
-[0m[[0minfo[0m] [0m+ test[0m
+[0m[[0minfo[0m] [0m[32m+[0m test[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test IntegrationTest[0m
-[0m[[0minfo[0m] [0mFinished in 0.018 seconds[0m
-[0m[[0minfo[0m] [0m1 tests, 0 failures, 0 errors[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.022 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m1 tests, 0 failures, 0 errors[0m[0m
 [0m[[0minfo[0m] [0mApplicationTest[0m
-[0m[[0minfo[0m] [0m+ simpleCheck[0m
-[0m[[0minfo[0m] [0m+ JeuJ1[0m
-[0m[[0minfo[0m] [0m+ ScoreDebutDePartie[0m
-[0m[[0minfo[0m] [0m+ AvantageJ1[0m
-[0m[[0minfo[0m] [0m+ AvantageJ2[0m
-[0m[[0minfo[0m] [0m+ renderTemplate[0m
-[0m[[0minfo[0m] [0m+ GainJoueur1[0m
-[0m[[0minfo[0m] [0m+ GainJoueur2[0m
+[0m[[0minfo[0m] [0m[32m+[0m simpleCheck[0m
+[0m[[0minfo[0m] [0m[33mx[0m JeuJ1[0m
+[0m[[0minfo[0m] [0m[32m+[0m ScoreDebutDePartie[0m
+[0m[[0minfo[0m] [0m[32m+[0m AvantageJ1[0m
+[0m[[0minfo[0m] [0m[32m+[0m AvantageJ2[0m
+[0m[[0minfo[0m] [0m[32m+[0m renderTemplate[0m
+[0m[[0minfo[0m] [0m[32m+[0m GainJoueur1[0m
+[0m[[0minfo[0m] [0m[32m+[0m GainJoueur2[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mTotal for test ApplicationTest[0m
-[0m[[0minfo[0m] [0mFinished in 0.009 seconds[0m
-[0m[[0minfo[0m] [0m8 tests, 0 failures, 0 errors[0m
+[0m[[0minfo[0m] [0m[34mFinished in 0.003 seconds[0m[0m
+[0m[[0minfo[0m] [0m[34m8 tests, 1 failures, 0 errors[0m[0m

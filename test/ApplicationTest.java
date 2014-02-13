@@ -103,6 +103,9 @@ public class ApplicationTest {
         //RAZ du score
         assertThat(jeu.score_point()).isEqualTo("0-0");
         assertThat(jeu.gainJeu("j1",1)).isEqualTo("1/0");
+        //gain set
+        assertThat(jeu.gainJeu("j1",6)).isEqualTo("set");
+        assertThat(jeu.score_jeu()).isEqualTo("6/0");
     }
 
 }
